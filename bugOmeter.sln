@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bugOmeter", "bugOmeter\bugOmeter.csproj", "{DAD31526-EBEE-4A7D-B7A3-5C1D8EB5D668}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bugOmeter.DAL", "bugOmeter.Data\bugOmeter.DAL.csproj", "{ED0108A1-8BFE-4552-B8DE-E99311FC23FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bugOmeter.Services", "bugOmeter.Services\bugOmeter.Services.csproj", "{6F012B73-F6FC-4051-BE6A-D04817BE8520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DAD31526-EBEE-4A7D-B7A3-5C1D8EB5D668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD31526-EBEE-4A7D-B7A3-5C1D8EB5D668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD31526-EBEE-4A7D-B7A3-5C1D8EB5D668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0108A1-8BFE-4552-B8DE-E99311FC23FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0108A1-8BFE-4552-B8DE-E99311FC23FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0108A1-8BFE-4552-B8DE-E99311FC23FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0108A1-8BFE-4552-B8DE-E99311FC23FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F012B73-F6FC-4051-BE6A-D04817BE8520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F012B73-F6FC-4051-BE6A-D04817BE8520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F012B73-F6FC-4051-BE6A-D04817BE8520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F012B73-F6FC-4051-BE6A-D04817BE8520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

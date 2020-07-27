@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace bugOmeter.Data.Migrations
+namespace bugOmeter.DAL.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
